@@ -6,7 +6,7 @@
 
 Name:           google-%{short_name}
 Version:        3.1.3
-Release:        9%{?dist}
+Release:        8%{?dist}
 Summary:        Lightweight dependency injection framework for Java 5 and above
 Group:          Development/Libraries
 License:        ASL 2.0
@@ -229,9 +229,6 @@ servlet,spring,throwingproviders}" "com.google.inject.extensions:guice-@1"
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.1.3-9
-- Mass rebuild 2013-12-27
-
 * Wed Sep 25 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 3.1.3-8
 - Install no_aop artifact after javapackages update
 
